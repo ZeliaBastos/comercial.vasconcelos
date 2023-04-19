@@ -1,0 +1,76 @@
+body {
+  text-align: center;
+}
+.faixa-topo {
+  color: aliceblue;
+  background-color: black;
+}
+.faixa-topo p {
+  margin: auto;
+  padding: 10px;
+}
+.topo {
+  color: aliceblue;
+  background-color: #004aad;
+  text-align: left;
+}
+.sec-topo {
+  display: inline-block;
+  max-width: 48%;
+  box-sizing: border-box;
+}
+.box1 {
+  margin-left: 300px;
+  text-align: right;
+  vertical-align: top;
+}
+.figure-logo {
+  width: 130%;
+}
+.icon-peças {
+  text-align: center;
+}
+.section {
+  text-align: center;
+  display: inline-block;
+}
+.section-moveis {
+  width: 90px;
+  padding: 10px 40px 0px;
+}
+.moveis {
+  margin: auto;
+}
+.history {
+  background-color: #eeeee7;
+}
+.end {
+  background-color: #eeeee7;
+}
+.end ul {
+  padding-inline-start: 0px;
+  margin-bottom: 0px;
+  padding-top: 10px;
+}
+hr {
+  margin: auto;
+}
+.icons-list {
+  display: inline-block;
+  padding: 10px;
+}
+.icon-midia {
+  max-width: 35px;
+}
+.box {
+  margin: 0px 0px 0px 50px;
+}
+.text-ent {
+  padding-left: 0px;
+  padding-bottom: 0px;
+}
+.criado {
+  text-align: center;
+  background-color: #000000;
+  color: #eeeee7;
+}
