@@ -40,6 +40,13 @@ body {
   text-align: center;
   display: inline-block;
 }
+.section a {
+  text-decoration: none;
+  color: #000000;
+}
+.section a:hover {
+  font-size: 1.2em;
+}
 .section-moveis {
   width: 90px;
   padding: 10px 40px 0px;
