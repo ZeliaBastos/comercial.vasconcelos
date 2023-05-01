@@ -143,3 +143,13 @@ hr {
 .apresenta {
   text-align: left;
 }
+.box {
+  display: inline-block;
+  box-sizing: border-box;
+  border: #004aad 1px solid;
+  margin: 5px;
+  max-width: 33%;
+}
+.box-peças {
+  width: 300px;
+}
