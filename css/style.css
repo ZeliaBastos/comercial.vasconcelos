@@ -86,12 +86,14 @@ body {
   text-decoration: none;
   color: #000000;
 }
-.section a:hover {
-  font-size: 1.2em;
-}
 .section-moveis {
   width: 90px;
   padding: 10px 40px 0px;
+}
+.section:hover {
+  background-color: #004aad;
+  border-radius: 10px;
+  color: #eeeee7;
 }
 .moveis {
   margin: auto;
