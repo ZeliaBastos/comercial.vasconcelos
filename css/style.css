@@ -70,7 +70,8 @@ body {
   grid-auto-columns: 1fr;
 }
 .img-slide {
-  max-width: 70%;
+  box-sizing: border-box;
+  max-width: 80%;
   border-radius: 20px;
 }
 
@@ -144,6 +145,10 @@ hr {
 }
 .apresenta {
   text-align: left;
+}
+.news {
+  text-align: right;
+  margin-right: 100px;
 }
 .box {
   display: inline-block;
