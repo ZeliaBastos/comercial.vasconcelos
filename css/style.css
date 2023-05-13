@@ -83,7 +83,8 @@ body {
   text-align: center;
   display: inline-block;
 }
-.section a {
+.section a,
+li a {
   text-decoration: none;
   color: #000000;
 }
@@ -102,9 +103,6 @@ body {
 .history {
   background-color: #eeeee7;
 }
-.logo-marca {
-  width: 45px;
-}
 .end {
   background-color: #eeeee7;
   font-size: 0.8em;
@@ -114,6 +112,15 @@ body {
   box-sizing: border-box;
   max-width: 25%;
   padding: 15px;
+}
+.launch {
+  background-image: url(/img/low-poly-grid-haikei.png);
+}
+.launch h3 {
+  color: aliceblue;
+}
+.logo-marca {
+  width: 45px;
 }
 .end ul {
   padding-inline-start: 0px;
@@ -155,8 +162,9 @@ hr {
   box-sizing: border-box;
   border: #004aad 1px solid;
   margin: 5px;
-  max-width: 33%;
+  max-width: 30%;
+  padding: 3px;
 }
 .box-peças {
-  width: 300px;
+  width: 85%;
 }
