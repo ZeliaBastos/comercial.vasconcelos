@@ -114,6 +114,7 @@ li a {
   padding: 15px;
 }
 .launch {
+  padding-top: 20px;
   background-image: url(/img/low-poly-grid-haikei.png);
 }
 .launch h3 {
