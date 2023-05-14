@@ -74,7 +74,10 @@ body {
   max-width: 80%;
   border-radius: 20px;
 }
-
+.slide h3 {
+  text-align: end;
+  margin-right: 50px;
+}
 .icon-peças {
   text-align: center;
   font-size: 0.9em;
@@ -103,22 +106,26 @@ li a {
 .history {
   background-color: #eeeee7;
 }
+.launch {
+  padding-top: 10px;
+  background-image: url(/img/cool-backgroundnh.png);
+  background-position: center;
+  background-size: cover;
+}
+.launch h3 {
+  color: aliceblue;
+}
 .end {
   background-color: #eeeee7;
   font-size: 0.8em;
+  margin-top: 20px;
+  padding-bottom: 5px;
 }
 .end-box {
   display: inline-block;
   box-sizing: border-box;
   max-width: 25%;
   padding: 15px;
-}
-.launch {
-  padding-top: 20px;
-  background-image: url(/img/low-poly-grid-haikei.png);
-}
-.launch h3 {
-  color: aliceblue;
 }
 .logo-marca {
   width: 45px;
@@ -146,7 +153,7 @@ hr {
   text-align: center;
   background-color: #000000;
   color: #eeeee7;
-  font-size: 0.8em;
+  font-size: 0.6em;
 }
 .mov-eletro {
   margin: 30px 50px;
@@ -168,4 +175,10 @@ hr {
 }
 .box-peças {
   width: 85%;
+}
+.container-1 {
+  margin-bottom: 30px;
+}
+.container-2 {
+  margin-top: 30px;
 }
