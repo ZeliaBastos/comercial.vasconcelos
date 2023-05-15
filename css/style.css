@@ -2,6 +2,9 @@ html,
 body {
   margin: 0;
 }
+html {
+  scroll-behavior: smooth;
+}
 body {
   text-align: center;
   font-family: "Roboto", sans-serif;
@@ -103,12 +106,20 @@ li a {
 .moveis {
   margin: auto;
 }
+.box-ven {
+  display: inline-block;
+  box-sizing: border-box;
+  border: #004aad 1px solid;
+  margin: 5px;
+  max-width: 23%;
+  padding: 3px;
+}
 .history {
   background-color: #eeeee7;
 }
 .launch {
   padding-top: 10px;
-  background-image: url(/img/cool-backgroundnh.png);
+  background-image: url("../img/cool-backgroundnh.png");
   background-position: center;
   background-size: cover;
 }
@@ -181,4 +192,7 @@ hr {
 }
 .container-2 {
   margin-top: 30px;
+}
+
+@media (max-width: 720px) {
 }
