@@ -187,11 +187,32 @@ hr {
 .box-peças {
   width: 85%;
 }
+.flipper {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+  position: relative;
+}
+.flip-container:hover .flipper {
+  transform: rotateY(180deg);
+}
+.front,
+.back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+.back {
+  transform: rotateY(180deg);
+}
 .container-1 {
   margin-bottom: 30px;
 }
 .container-2 {
   margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 @media (max-width: 720px) {
