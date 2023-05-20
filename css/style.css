@@ -156,6 +156,9 @@ hr {
 .icon-midia {
   max-width: 35px;
 }
+.seta {
+  margin-top: 50px;
+}
 .text-ent {
   padding-left: 0px;
   padding-bottom: 0px;
@@ -171,15 +174,18 @@ hr {
 }
 .apresenta {
   text-align: left;
+  font-size: 0.9em;
 }
 .news {
   text-align: right;
   margin-right: 100px;
+  margin-bottom: 50px;
 }
 .box {
   display: inline-block;
   box-sizing: border-box;
-  border: #004aad 1px solid;
+  box-shadow: #004aad 6px 2px 16px 0px,
+    rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
   margin: 5px;
   max-width: 30%;
   padding: 3px;
@@ -216,4 +222,36 @@ hr {
 }
 
 @media (max-width: 720px) {
+  h2 {
+    font-size: 1em;
+  }
+  .figure-logo {
+    width: 160%;
+  }
+  .box1 {
+    margin-left: 0px;
+    font-size: 0.8em;
+  }
+  .icon-peças ul {
+    padding-inline-start: 0px;
+  }
+  .section-moveis {
+    width: 0px;
+  }
+  .box {
+    max-width: 50%;
+  }
+  .end {
+    font-size: 0.6em;
+  }
+  .end-box {
+    padding: 0px 10px;
+    max-width: none;
+  }
+  .end ul {
+    padding: 0px;
+  }
+  .icon-midia {
+    max-width: 30px;
+  }
 }
