@@ -84,6 +84,8 @@ body {
 .icon-peças {
   text-align: center;
   font-size: 0.9em;
+  background-color: #eeeee7;
+  padding: 10px;
 }
 .section {
   text-align: center;
@@ -109,9 +111,10 @@ li a {
 .box-ven {
   display: inline-block;
   box-sizing: border-box;
-  border: #004aad 1px solid;
+  box-shadow: #004aad 6px 2px 16px 0px,
+    rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
   margin: 5px;
-  max-width: 23%;
+  max-width: 18%;
   padding: 3px;
 }
 .history {
@@ -228,6 +231,10 @@ hr {
   .figure-logo {
     width: 160%;
   }
+  .box-ven {
+    max-width: 40%;
+    font-size: 0.7em;
+  }
   .box1 {
     margin-left: 0px;
     font-size: 0.8em;
@@ -240,6 +247,9 @@ hr {
   }
   .box {
     max-width: 50%;
+  }
+  .launch h3 {
+    font-size: 0.9em;
   }
   .end {
     font-size: 0.6em;
