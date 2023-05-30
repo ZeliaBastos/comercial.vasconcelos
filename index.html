@@ -33,27 +33,64 @@
       </div>
     </div>
 
-    <input type="radio" class="slide-controller" name="slide" checked />
-    <input type="radio" class="slide-controller" name="slide" />
-    <input type="radio" class="slide-controller" name="slide" />
-    <input type="radio" class="slide-controller" name="slide" />
-
-    <div class="slide-show">
-      <ul class="slides-list">
-        <li class="slide">
-          <img class="img-slide" src="img/compra.slide.png" alt="" />
-        </li>
-        <li class="slide">
-          <img class="img-slide" src="img/slide.png" alt="" />
-        </li>
-        <li class="slide">
-          <img class="img-slide" src="img/quarto.slide.png" alt="" />
-        </li>
-        <li class="slide">
-          <img class="img-slide" src="img/eletronicos.slide.png" alt="" />
-        </li>
-      </ul>
-    </div>
+    <ul class="slides">
+      <input type="radio" name="radio-btn" id="img-1" checked />
+      <li class="slide-container">
+        <div class="slide">
+          <img src="img/quarto.slide.png" alt="" />
+        </div>
+        <div class="nav">
+          <label for="img-4" class="prev"
+            ><img src="img/back.png" alt=""
+          /></label>
+          <label for="img-2" class="next"
+            ><img class="seta" src="img/next.png" alt=""
+          /></label>
+        </div>
+      </li>
+      <input type="radio" name="radio-btn" id="img-2" />
+      <li class="slide-container">
+        <div class="slide">
+          <img src="img/eletronicos.slide.png" alt="" />
+        </div>
+        <div class="nav">
+          <label for="img-1" class="prev"
+            ><img class="seta" src="img/back.png" alt=""
+          /></label>
+          <label for="img-3" class="next"
+            ><img class="seta" src="img/next.png" alt=""
+          /></label>
+        </div>
+      </li>
+      <input type="radio" name="radio-btn" id="img-3" />
+      <li class="slide-container">
+        <div class="slide">
+          <img src="img/compra.slide.png" alt="" />
+        </div>
+        <div class="nav">
+          <label for="img-2" class="prev"
+            ><img class="seta" src="img/back.png" alt=""
+          /></label>
+          <label for="img-4" class="next"
+            ><img class="seta" src="img/next.png" alt=""
+          /></label>
+        </div>
+      </li>
+      <input type="radio" name="radio-btn" id="img-4" />
+      <li class="slide-container">
+        <div class="slide">
+          <img src="img/slide.png" alt="" />
+        </div>
+        <div class="nav">
+          <label for="img-3" class="prev"
+            ><img class="seta" src="img/back.png" alt=""
+          /></label>
+          <label for="img-1" class="next"
+            ><img class="seta" src="img/next.png" alt=""
+          /></label>
+        </div>
+      </li>
+    </ul>
     <div class="icon-peças">
       <ul>
         <li class="section">
@@ -123,7 +160,11 @@
       <div class="line-1">
         <div class="box-ven">
           <img class="box-peças" src="img/eletrodomestico/agille.jpeg" alt="" />
+          <hr />
+          <hr />
           <p>Fogão 5 Bcs Agile</p>
+          <hr />
+          <hr />
         </div>
         <div class="box-ven">
           <img
@@ -131,11 +172,19 @@
             src="img/eletrodomestico/eletrolux df44.jpeg"
             alt=""
           />
+          <hr />
+          <hr />
           <p>Frost Free Eletrolux 402L</p>
+          <hr />
+          <hr />
         </div>
         <div class="box-ven">
           <img class="box-peças" src="img/quarto/roupeiro.glass1.png" alt="" />
+          <hr />
+          <hr />
           <p>Roupeiro Glass 1.9</p>
+          <hr />
+          <hr />
         </div>
         <div class="box-ven">
           <img
@@ -143,11 +192,19 @@
             src="img/eletronico/smart-tv-tcl-android-led-43-.jpg"
             alt=""
           />
+          <hr />
+          <hr />
           <p>TV TCL 43p Android</p>
+          <hr />
+          <hr />
         </div>
         <div class="box-ven">
           <img class="box-peças" src="img/diversos/lotus.jpeg" alt="" />
+          <hr />
+          <hr />
           <p>Bicicleta Lotus Aro 29</p>
+          <hr />
+          <hr />
         </div>
       </div>
     </div>
@@ -162,19 +219,19 @@
 
       <div class="slide-show">
         <ul class="slides-list">
-          <li class="slide">
+          <li class="slidess">
             <img class="box" src="img/quarto/roupeiro reflex.jpeg" alt="" />
             <img class="box" src="img/quarto/comoda pegasus.jpeg" alt="" />
             <img class="box" src="img/quarto/roupeiro apollo.jpeg" alt="" />
             <a href="quarto.html"><h3>Veja mais - Quarto</h3></a>
           </li>
-          <li class="slide">
+          <li class="slidess">
             <img class="box" src="img/sala/home buzio.jpeg" alt="" />
             <img class="box" src="img/sala/bancada ubatuba.jpeg" alt="" />
             <img class="box" src="img/sala/aarador rivieira.jpeg" alt="" />
             <a href="sala.html"><h3>Veja mais - Sala</h3></a>
           </li>
-          <li class="slide">
+          <li class="slidess">
             <img class="box" src="img/cozinha/buffet copacabana.jpeg" alt="" />
             <img
               class="box"
@@ -184,7 +241,7 @@
             <img class="box" src="img/cozinha/buffet vitoria.jpeg" alt="" />
             <a href="cozinha.html"><h3>Veja mais - Cozinha</h3></a>
           </li>
-          <li class="slide">
+          <li class="slidess">
             <img
               class="box"
               src="img/diversos/bicicleta atalanta.jpeg"

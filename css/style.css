@@ -21,6 +21,7 @@ body {
   color: aliceblue;
   background-color: #004aad;
   text-align: left;
+  margin-bottom: 20px;
 }
 .topo a {
   text-decoration: none;
@@ -38,6 +39,70 @@ body {
 }
 .figure-logo {
   width: 130%;
+}
+.slides {
+  padding: 0;
+  width: 1200px;
+  height: 500px;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+}
+.slides * {
+  user-select: none;
+  -ms-user-select: none;
+  -moz-user-select: none;
+}
+.slides input {
+  display: none;
+}
+.slide-container {
+  display: block;
+}
+.slide {
+  top: 0;
+  opacity: 0;
+  width: 1200px;
+  height: 500px;
+  position: absolute;
+  display: block;
+  transform: scale(1);
+  transition: all 0.7s ease-in-out;
+}
+.slide img {
+  width: 100%;
+  height: 100%;
+}
+.nav label {
+  width: 200px;
+  height: 100%;
+  display: none;
+  position: absolute;
+  opacity: 0;
+  z-index: 9;
+  cursor: pointer;
+  transition: opacity 0.2s;
+  background-color: rgba(7, 7, 7, 0.24);
+}
+.slide:hover + .nav label {
+  opacity: 0.5s;
+}
+.nav label:hover {
+  opacity: 1;
+}
+.nav .next {
+  right: 0;
+}
+input:checked + .slide-container .slide {
+  opacity: 1;
+  transform: scale(1);
+  transition: opacity 1s ease-in-out;
+}
+input:checked + .slide-container .nav label {
+  display: block;
+}
+.seta {
+  width: 30px;
 }
 
 .slide-controller:nth-child(1):checked ~ .slide-show .slides-list {
@@ -72,12 +137,8 @@ body {
   grid-auto-flow: column;
   grid-auto-columns: 1fr;
 }
-.img-slide {
-  box-sizing: border-box;
-  max-width: 80%;
-  border-radius: 20px;
-}
-.slide h3 {
+
+.slidess h3 {
   text-align: end;
   margin-right: 50px;
 }
@@ -86,6 +147,7 @@ body {
   font-size: 0.9em;
   background-color: #eeeee7;
   padding: 10px;
+  margin-top: 20px;
 }
 .section {
   text-align: center;
@@ -158,9 +220,6 @@ hr {
 }
 .icon-midia {
   max-width: 35px;
-}
-.seta {
-  margin-top: 50px;
 }
 .text-ent {
   padding-left: 0px;
@@ -238,6 +297,14 @@ hr {
   .box1 {
     margin-left: 0px;
     font-size: 0.8em;
+  }
+  .slide {
+    max-width: 100%;
+    height: auto;
+  }
+  .slides {
+    width: auto;
+    height: 200px;
   }
   .icon-peças ul {
     padding-inline-start: 0px;
