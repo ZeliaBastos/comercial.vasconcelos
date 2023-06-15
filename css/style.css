@@ -181,6 +181,8 @@ li a {
 }
 .history {
   background-color: #eeeee7;
+  padding: 10px;
+  margin: 50px 100px;
 }
 .launch {
   padding-top: 10px;
