@@ -287,11 +287,14 @@ hr {
 }
 
 @media (max-width: 720px) {
+  .faixa-topo {
+    font-size: 0.8em;
+  }
   h2 {
     font-size: 1em;
   }
   .figure-logo {
-    width: 130%;
+    width: 105%;
   }
   .box-ven {
     max-width: 40%;
@@ -322,6 +325,7 @@ hr {
   .history {
     font-size: 0.8em;
     margin: 30px 0px;
+    padding: 2px 15px;
   }
   .launch h3 {
     font-size: 0.9em;
